@@ -1,0 +1,36 @@
+body,
+html {
+  background: #16a085;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.card {
+  background: #bdc3c7;
+  border-radius: 20px;
+  width: 5cm;
+  height: 8cm;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 20px #2c3e50;
+  transition: 0.25s;
+}
+
+.card-inner {
+  background: #2c3e50;
+  width: 84%;
+  height: 89%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-inner img {
+  width: 50%;
+  height: 40%;
+}

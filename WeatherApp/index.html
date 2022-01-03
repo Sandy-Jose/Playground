@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>WeatherApp</title>
+  </head>
+  <body>
+    <div class="box">
+      <div class="card">
+        <div id="temperature">
+          <div id="symbol"><span>&#8451;</span></div>
+          <div id="temperature-temp"></div>
+        </div>
+        <div class="data">
+          <div class="feels-like">
+            <p id="feels-like-space">Feels Like :</p>
+            <p id="feels-like"></p>
+            <p>&#8451;</p>
+          </div>
+          <div class="feels-like">
+            <p>Condition :</p>
+            <p id="cdn"></p>
+          </div>
+          <div class="location-data">
+            <div class="loc">
+              <p id="loc-name"></p>
+              <p id="loc-region"></p>
+              <p id="loc-country"></p>
+            </div>
+            <div class="date">
+              <p id="date-date"></p>
+              <p id="date-time"></p>
+              <a
+                style="color: #ecf0f1"
+                href="https://www.weatherapi.com/"
+                title="Free Weather API"
+                >WeatherAPI.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
